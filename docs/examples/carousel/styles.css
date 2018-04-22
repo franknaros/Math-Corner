@@ -1,0 +1,176 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: lightblue;
+  /* background-color: #b3e6ff; */
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  
+    
+    
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  color: white;
+  text-shadow:#4d4d4d;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: lightblue;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 60%;
+ 
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+ 
+
+@media only screen and (min-width: 992px) {
+  .carousel-inner > .item > img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+ 
+}
+
+}
+
+.carousel.img-responsive{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+    
+
+
+/*Quizzzzer stylesheet*/ 
+.answers li { 
+list-style: upper-alpha; 
+} 
+
+#results { 
+background: #dddada; 
+color: 000000; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+}
+
+#results:hover { 
+background: #3d91b8; 
+color: #ffffff; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+} 
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10,
+#category11, #category12, #category13, #category14, #category15, #category16, #category17, #category18, #category19, #category20,
+#category21, #category22, #category23, #category24, #category25, #category26, #category27, #category28
+{ 
+display: none; 
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
+
+.question{
+  
+  padding: 5px;
+  font-size: 25px;
+  text-align: Center;
+}
+
+.outline1{
+  Margin-left: 5px;
+  outline: solid black;
+  outline-width: 1px;
+}
+
+input[type="radio"] {
+  align-items: center;
+  text-align: center;
+  margin-right: 8px;
+    margin: auto;
+}
